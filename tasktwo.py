@@ -3,7 +3,7 @@ import hashlib
 from csv import writer
 from csv import reader
 #get's the file paths
-datapath =input("paste your file path, NOTE: PANDA reqiu")
+datapath =input("paste your file path here: ")
 outpath = datapath[0:-4]
 
 #reads through the csv file to be processed
